@@ -3,6 +3,7 @@
 const formulario = document.querySelector('#agregar-gasto');
 const gastoListado = document.querySelector('#gastos ul');
 
+
 // Eventos
 
 eventListenners();
@@ -10,7 +11,7 @@ function eventListenners() {
     document.addEventListener('DOMContentLoaded', preguntarPresupuesto);
 
     formulario.addEventListener('submit', agregarGasto);
-
+    
 }
 
 // Clases
@@ -207,7 +208,7 @@ function agregarGasto(e) {
     ui.mostrarGastos(gastos);
 
     ui.actualizarRestante(restante);
-
+3
     ui.comprobarPresupuesto(presupuesto);
 
     // Reinicia el formulario
@@ -226,4 +227,4 @@ function eliminarGasto(id) {
 
  }
 
-
+ 

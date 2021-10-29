@@ -1,0 +1,14 @@
+{
+    "Consultas": {
+       "Consultas_del_mes_pasado": 100,
+       "Consultas_del_mes_actual": 35
+    },
+    "Operacion": {
+        "Listado": {
+            "Concepto": 2000,
+            "Monto": 2000,
+            "Fecha": 27,
+            "Tipo": 1
+        }
+    }
+}

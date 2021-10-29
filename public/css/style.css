@@ -1,0 +1,8 @@
+/** Navegacion a formulario **/
+nav.navegacion {
+    float: left;
+    text-align: center;
+    display: block;
+    padding: 50px;
+    font-size: 25px;
+}
